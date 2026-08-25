@@ -172,10 +172,10 @@ export type Testimonial = {
 
 export const testimonials = [
   {
-    name: "Client Name",
+    name: "Dhananjay Ashokrao Tale",
     rating: 5,
-    quote: "lient feedback goes here.",
-    location: "Khamgaon, Maharashtra",
-    service: "Vastu Consultation",
+    quote: "First warm regards to Madam ji . I was problem of stress all the time and on my working place all the I was blaming and several issues related to my work tough i was doing my work perfectly and with full devotion but results were happening against of me so I talked with Vastusakhhi madam ji and I told each and every thing and also send my kundali after some time she told me to read KALBHARAV ASTAK every day also told some activities to do and some protocols to fallow and just within 15 days I found picture started to change all the things now going my way and my side and now my Boss is also listening me and also getting attention of all my opinions Thank you so much madam ji yet now I am continue with my sadhana . Dhananjay Ashokrao Tale 92704 01778 Thank you so much 🙏🙏",
+    location: "Thergaon chinchwad pune 33",
+    service: "Kundli Analysis",
   },
 ];

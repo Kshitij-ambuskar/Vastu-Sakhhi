@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-ink-900 font-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+  }
+
+  ::selection {
+    @apply bg-gold-200 text-ink-900;
+  }
+
+  /* Visible keyboard focus for accessibility */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    outline: 2px solid #d4af37;
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .section-eyebrow {
+    @apply inline-flex items-center gap-2 text-xs tracking-[0.25em] uppercase text-gold-600 font-semibold font-body;
+  }
+
+  .section-heading {
+    @apply text-3xl sm:text-4xl md:text-5xl font-display font-medium text-ink-900 leading-[1.1];
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm bg-ink-900 px-7 py-3.5 text-sm font-semibold tracking-wide text-cream transition-colors duration-300 hover:bg-ink-700;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm bg-gold-500 px-7 py-3.5 text-sm font-semibold tracking-wide text-ink-900 transition-colors duration-300 hover:bg-gold-400;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm border border-ink-900/20 px-7 py-3.5 text-sm font-semibold tracking-wide text-ink-900 transition-colors duration-300 hover:border-gold-500 hover:text-gold-700;
+  }
+
+  .container-pad {
+    @apply mx-auto max-w-6xl px-6 sm:px-8 lg:px-10;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -174,8 +174,17 @@ export const testimonials = [
   {
     name: "Dhananjay Ashokrao Tale",
     rating: 5,
-    quote: "First warm regards to Madam ji . I was problem of stress all the time and on my working place all the I was blaming and several issues related to my work tough i was doing my work perfectly and with full devotion but results were happening against of me so I talked with Vastusakhhi madam ji and I told each and every thing and also send my kundali after some time she told me to read KALBHARAV ASTAK every day also told some activities to do and some protocols to fallow and just within 15 days I found picture started to change all the things now going my way and my side and now my Boss is also listening me and also getting attention of all my opinions Thank you so much madam ji yet now I am continue with my sadhana . Dhananjay Ashokrao Tale 92704 01778 Thank you so much 🙏🙏",
-    location: "Thergaon chinchwad pune 33",
+    quote:
+      "First warm regards to Madam ji. I was problem of stress all the time and on my working place all the time I was blaming and several issues related to my work. Though I was doing my work perfectly and with full devotion, results were happening against me. So I talked with VastuSakhhi Madam ji and told her each and everything and also sent my kundali. After some time she told me to read KALBHARAV ASTAK every day, also told me some activities to do and some protocols to follow. Just within 15 days I found the picture started to change. All the things are now going my way and in my favor. My Boss is also listening to me and I am getting attention for all my opinions. Thank you so much Madam ji. I am continuing with my sadhana.",
+    location: "Thergaon, Chinchwad, Pune",
+    service: "Kundli Analysis",
+  },
+  {
+    name: "Gajanan Pawar",
+    rating: 4,
+    quote:
+      "Special Thanks to VastuSakhhi Madam ji. I was suffering with a health problem related to my heart. I took guidance from Madam ji and also showed her my kundali. After studying it, she gave me some activities to do and also asked me to perform puja. She also gave me confidence and moral support and told me that after 5 weeks my health would improve. The same started happening after the said period, and because of that my confidence was lifted. Now I am feeling much better and everything is settled down. Thank you so much for your valuable guidance and perfect prediction.",
+    location: "Rahatani, Pimpri Chinchwad",
     service: "Kundli Analysis",
   },
 ];
